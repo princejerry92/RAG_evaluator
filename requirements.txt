@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+supabase
+anthropic
+beautifulsoup4
+requests
+pgvector
+numpy
+pandas
+ragas
+groq
+playwright

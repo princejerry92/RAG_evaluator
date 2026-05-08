@@ -1,0 +1,47 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.local-browsers/
+
+# Project Specific
+tests/
+test_scraper.py
+test_sitemap.py
+debug_raw_sitemap.py
+fallback_crawler.py
+.system_generated/
+scripts/
