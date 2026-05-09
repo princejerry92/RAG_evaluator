@@ -27,7 +27,7 @@ class Retriever:
         try:
             rpc_params = {
                 "query_embedding": query_embedding,
-                "match_threshold": 0.0,  # Low threshold: dummy embeddings won't have high cosine similarity
+                "match_threshold": 0.1,  # Tuned for Voyage semantic embeddings
                 "match_count": k,
             }
             response = self.supabase.rpc("match_docs", rpc_params).execute()
